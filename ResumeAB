@@ -1,0 +1,7 @@
+echo "# AI_Resume_Web_Page" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/amanbhatnagar007/AI_Resume_Web_Page.git
+git push -u origin main
