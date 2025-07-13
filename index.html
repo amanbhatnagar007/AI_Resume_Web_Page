@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - AI Developer & Engineer</title>
+    <meta name="description" content="AI Developer and Engineer specializing in machine learning, web development, and innovative solutions.">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">YourName</span>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li><button class="theme-toggle" id="theme-toggle"><i class="fas fa-moon"></i></button></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        Hi, I'm <span class="gradient-text">Your Name</span>
+                    </h1>
+                    <h2 class="hero-subtitle">AI Developer & Full-Stack Engineer</h2>
+                    <p class="hero-description">
+                        I build intelligent applications and innovative solutions using cutting-edge AI technologies 
+                        and modern web development practices.
+                    </p>
+                    <div class="hero-buttons">
+                        <button class="btn btn-primary hire-btn" onclick="openContactModal()">
+                            <i class="fas fa-rocket"></i> Hire Me Now
+                        </button>
+                        <button class="btn btn-secondary" onclick="downloadResume()">
+                            <i class="fas fa-download"></i> Download Resume
+                        </button>
+                    </div>
+                    <div class="quick-stats">
+                        <div class="stat">
+                            <span class="stat-number">50+</span>
+                            <span class="stat-label">Projects</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">3+</span>
+                            <span class="stat-label">Years Experience</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">100%</span>
+                            <span class="stat-label">Client Satisfaction</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="profile-card">
+                        <div class="profile-img">
+                            <img src="https://via.placeholder.com/300x300" alt="Profile Picture">
+                        </div>
+                        <div class="availability-badge">
+                            <span class="status-dot"></span>
+                            Available for Hire
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">Get to know me better</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I'm a passionate AI developer and full-stack engineer with expertise in machine learning, 
+                        web development, and creating innovative digital solutions. I love turning complex problems 
+                        into elegant, user-friendly applications.
+                    </p>
+                    <p>
+                        With a strong background in both technical implementation and creative problem-solving, 
+                        I bring ideas to life through code. My goal is to create impactful technology that makes 
+                        a difference.
+                    </p>
+                    <div class="about-highlights">
+                        <div class="highlight">
+                            <i class="fas fa-brain"></i>
+                            <h4>AI & Machine Learning</h4>
+                            <p>Specialized in developing intelligent systems and ML models</p>
+                        </div>
+                        <div class="highlight">
+                            <i class="fas fa-code"></i>
+                            <h4>Full-Stack Development</h4>
+                            <p>Creating end-to-end web applications with modern frameworks</p>
+                        </div>
+                        <div class="highlight">
+                            <i class="fas fa-lightbulb"></i>
+                            <h4>Problem Solving</h4>
+                            <p>Turning complex challenges into innovative solutions</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Skills & Technologies</h2>
+                <p class="section-subtitle">My technical expertise</p>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>AI & Machine Learning</h3>
+                    <div class="skill-items">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">TensorFlow</span>
+                        <span class="skill-tag">PyTorch</span>
+                        <span class="skill-tag">Scikit-learn</span>
+                        <span class="skill-tag">OpenAI API</span>
+                        <span class="skill-tag">Computer Vision</span>
+                        <span class="skill-tag">NLP</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Frontend Development</h3>
+                    <div class="skill-items">
+                        <span class="skill-tag">React</span>
+                        <span class="skill-tag">Vue.js</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">TypeScript</span>
+                        <span class="skill-tag">HTML5</span>
+                        <span class="skill-tag">CSS3</span>
+                        <span class="skill-tag">Tailwind CSS</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Backend Development</h3>
+                    <div class="skill-items">
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">Express.js</span>
+                        <span class="skill-tag">Django</span>
+                        <span class="skill-tag">FastAPI</span>
+                        <span class="skill-tag">PostgreSQL</span>
+                        <span class="skill-tag">MongoDB</span>
+                        <span class="skill-tag">Redis</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Tools & Platforms</h3>
+                    <div class="skill-items">
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">AWS</span>
+                        <span class="skill-tag">Google Cloud</span>
+                        <span class="skill-tag">Jupyter</span>
+                        <span class="skill-tag">VS Code</span>
+                        <span class="skill-tag">Figma</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">Some of my recent work</p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/400x250" alt="AI Chat Assistant">
+                        <div class="project-overlay">
+                            <a href="#" class="btn btn-primary btn-sm">Live Demo</a>
+                            <a href="#" class="btn btn-secondary btn-sm">GitHub</a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>AI Chat Assistant</h3>
+                        <p>Intelligent chatbot powered by machine learning with natural language processing capabilities.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>OpenAI</span>
+                            <span>React</span>
+                            <span>Node.js</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/400x250" alt="E-commerce Platform">
+                        <div class="project-overlay">
+                            <a href="#" class="btn btn-primary btn-sm">Live Demo</a>
+                            <a href="#" class="btn btn-secondary btn-sm">GitHub</a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>E-commerce Platform</h3>
+                        <p>Full-stack e-commerce solution with real-time inventory management and payment processing.</p>
+                        <div class="project-tech">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>PostgreSQL</span>
+                            <span>Stripe</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/400x250" alt="Data Analytics Dashboard">
+                        <div class="project-overlay">
+                            <a href="#" class="btn btn-primary btn-sm">Live Demo</a>
+                            <a href="#" class="btn btn-secondary btn-sm">GitHub</a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Data Analytics Dashboard</h3>
+                        <p>Interactive dashboard for data visualization and business intelligence with machine learning insights.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>Pandas</span>
+                            <span>D3.js</span>
+                            <span>Flask</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Let's Work Together</h2>
+                <p class="section-subtitle">Ready to start your next project?</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>your.email@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+1 (555) 123-4567</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Your City, Country</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" required placeholder="Your Name">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" required placeholder="Your Email">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" required placeholder="Project Subject">
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="5" required placeholder="Tell me about your project..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">
+                        <i class="fas fa-paper-plane"></i> Send Message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2024 Your Name. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#privacy">Privacy Policy</a>
+                    <a href="#terms">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Quick Hire Modal -->
+    <div id="hire-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h3>Let's Start Your Project!</h3>
+            <p>I'm excited to work with you. Choose how you'd like to proceed:</p>
+            <div class="hire-options">
+                <button class="btn btn-primary" onclick="window.open('https://calendly.com/yourname', '_blank')">
+                    <i class="fas fa-calendar"></i> Schedule a Call
+                </button>
+                <button class="btn btn-secondary" onclick="scrollToContact()">
+                    <i class="fas fa-envelope"></i> Send a Message
+                </button>
+                <button class="btn btn-secondary" onclick="window.open('mailto:your.email@gmail.com?subject=Project Inquiry', '_blank')">
+                    <i class="fas fa-envelope-open"></i> Email Directly
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
